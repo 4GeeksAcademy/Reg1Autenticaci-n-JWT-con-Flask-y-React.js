@@ -1,0 +1,8 @@
+.btn:hover {
+  filter: brightness(90%);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}

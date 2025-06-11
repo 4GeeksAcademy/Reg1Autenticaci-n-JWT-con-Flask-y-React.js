@@ -1,11 +1,28 @@
-export const Footer = () => (
-	<footer className="footer mt-auto py-3 text-center">
-		<p>
-			Check the <a target="_blank" href="https://4geeks.com/docs/start/react-flask-template">template documentation</a> <i className="fa-solid fa-file"></i> for help.
-		</p>
-		<p>
-			Made with <i className="fa fa-heart text-danger" /> by{" "}
-			<a href="http://www.4geeksacademy.com">4Geeks Academy</a>
-		</p>
-	</footer>
-);
+import React from "react";
+
+export const Footer = () => {
+  return (
+    <footer
+      className="text-center py-3"
+      style={{
+        backgroundColor: "#F5EBFF",
+        color: "#6B21A8",
+        fontWeight: "500",
+        fontSize: "1rem",
+        boxShadow: "0 -2px 8px rgba(0, 0, 0, 0.05)"
+      }}
+    >
+      Made with{" "}
+      <span
+        style={{
+          color: "#FF00FF",
+          textShadow: "0 0 8px #FF00FF",
+          fontSize: "1.2rem",
+        }}
+      >
+        ❤️
+      </span>{" "}
+      by <span style={{ color: "#4C1D95", fontWeight: "600" }}>Jackie</span>
+    </footer>
+  );
+};
